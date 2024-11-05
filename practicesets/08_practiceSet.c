@@ -7,7 +7,7 @@ int main(){
 
     // Write a program to take string as an input from the user using %c and %s confirm that the strings are equal. 
 
-    // char str[5];
+    // char  str[5]; 
     // printf("enter ");
     // for(int i = 0 ; i<5 ; i++){
     //     scanf("%c", &str[i]);
