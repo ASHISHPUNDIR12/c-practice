@@ -1,8 +1,10 @@
 // Check if a given string is a palindrome (reads the same backward as forward). Ignore case sensitivity.
 
-// without using any in build string function 
+
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
+// without using any in build string function 
 int  checkpalidrome(char str[]){
     int flag = 0 ; 
     // calculate the length of string 
@@ -25,14 +27,19 @@ int  checkpalidrome(char str[]){
     }
    return 0  ;
 }
+
+// with using string functions 
+
 int main(){
     printf("enter the string\n");
     char str[100] ;
+    char str2[100] ;
     gets(str);
-    checkpalidrome(str);
-    if(checkpalidrome(str)){
-        printf("not palidrome");
-    }
-    else printf("palidrom");
+    // checkpalidrome(str);
+    // if(checkpalidrome(str)){
+    //     printf("not palidrome");
+    // }
+    // else printf("palidrom");
+    checkpalidrome2(str,str2);
     return 0;
 }
