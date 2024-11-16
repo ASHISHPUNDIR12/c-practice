@@ -13,6 +13,5 @@ int sum = 0 ;
     }
     printf("%d" , sum);
 
-
     return 0;
 }
