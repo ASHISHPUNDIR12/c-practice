@@ -26,7 +26,7 @@ void rotate(int arr[], int n, int k)
 
 int main()
 {
-    int n = 6, k;
+    int n = 5, k;
     int arr[n];
 
     printf("Enter %d elements of the array:\n", n);
